@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How fake are you</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    // Generate a random number between 0 and 100
+    var mark = Math.floor(Math.random() * 101);
+
+    // Display the mark
+    document.write("<p><b>You are: " + mark + "%</b> real </p>");
+
+    // Determine the result based on the mark
+    if (mark >= 90) {
+        document.write("<b>You're the realest out there</b>");
+    } else if (mark >= 71 && mark < 85) {
+        document.write("<b>Decent I suppose... Anyways!</b>");
+    } else if (mark > 50 && mark < 70) {
+        document.write("<b>You should uh... work.. on that.</b>");
+    } else if (mark === 50) {
+        document.write("<b>Two faced much..?</b>");
+    } else if (mark >= 40 && mark <= 49) {
+        document.write("<b>Did your parents get you off temu?</b>");
+    } else if (mark >= 30 && mark < 40) {
+        document.write("<b>You know this isn't the Barbie movie... right?</b>");
+    } else if (mark >= 15 && mark < 30) {
+        document.write("<b>The plastic isle is on the other side of where I am...</b>");
+    } else if (mark >= 0 && mark < 15) {
+        document.write("<b>...Nasty little bastard...</b>");
+    }
+</script>
+
+<p>Refresh the page if you think I'm mistaken... Maybe there's some hope left for you.</p>
+
+</body>
+</html>
